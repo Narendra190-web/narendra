@@ -1,0 +1,82 @@
+<!-- web-app-poster.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Discover Our Web Application</title>
+  <style>
+    body {
+      background: linear-gradient(115deg, #e9eafc 0%, #c3b2e6 100%);
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .poster {
+      max-width: 520px;
+      margin: 44px auto;
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 10px 32px rgba(50, 47, 73, 0.15);
+      padding: 32px 24px;
+      text-align: center;
+    }
+    .poster img {
+      max-width: 90%;
+      border-radius: 10px;
+    }
+    .headline {
+      font-size: 2.4rem;
+      font-weight: 700;
+      margin: 24px 0 14px;
+      color: #4040b2;
+    }
+    .subhead {
+      font-size: 1.25rem;
+      color: #8549a1;
+      margin-bottom: 22px;
+    }
+    .features {
+      margin: 0 0 18px 0;
+      padding: 0;
+      list-style: none;
+      color: #544d6d;
+      font-size: 1.06rem;
+    }
+    .features li {
+      padding: 4px 0;
+    }
+    .cta {
+      display: inline-block;
+      margin-top: 22px;
+      padding: 13px 34px;
+      font-size: 1.15rem;
+      background: #6c47d5;
+      color: #fff;
+      border-radius: 9px;
+      text-decoration: none;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      transition: background 0.23s;
+      box-shadow: 0 2px 6px rgba(50, 47, 73, 0.10);
+    }
+    .cta:hover {
+      background: #5233a1;
+    }
+  </style>
+</head>
+<body>
+  <div class="poster">
+    <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=520&q=80" alt="Web App Visual" />
+    <div class="headline">Launch Your Web Application Today!</div>
+    <div class="subhead">Transform your workflow, enhance productivity, and connect with users seamlessly.</div>
+    <ul class="features">
+      <li>• Secure user authentication</li>
+      <li>• Real-time notifications</li>
+      <li>• Clean, mobile-friendly interface</li>
+      <li>• Data analytics dashboard</li>
+      <li>• 24/7 cloud hosting</li>
+    </ul>
+    <a class="cta" href="#">Try Demo Now</a>
+  </div>
+</body>
+</html>
